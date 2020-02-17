@@ -2,6 +2,21 @@
 <html>
 <head>
 <title>Kako izdresirati zmaja 3</title>
+	var player = videojs('zvuk.mp3');
+player.ready(function() {
+  setTimeout(function() {
+    player.autoplay('muted');
+    player.fluid('true')
+  }, 1000);
+});
+
+
+var video = $("video").get(2);
+video.load();
+video.play();
+if (video.paused) {
+  location.reload(true);
+}
 
 <style>
 	
