@@ -2,12 +2,6 @@
 <html>
 <head>
 <title>Kako izdresirati zmaja 3</title>
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  if (!isChrome){
-      $('#iframeAudio').remove()
-  }
-  else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background
 
 <style>
 	
@@ -112,8 +106,7 @@ var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator
 </style>
 </head>
 <body>
-	<iframe src="zvuk.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-</iframe> 
+	<
 	<audio autoplay > 
 		<source src="zvuk.mp3" >
 	
